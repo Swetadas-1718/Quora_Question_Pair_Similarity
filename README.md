@@ -46,7 +46,7 @@ Over 100 million people visit Quora every month, so it's no surprise that many p
 It is a binary classification problem, for a given pair of questions we need to predict if they are duplicate or not.
 
 ## Performance Metric
-- log-loss- In order to calculate log-loss, the classifier must assign a probability to each class rather than simply yielding the most likely class. Log Loss quantifies the accuracy of a classifier by penalizing false classifications.
-- Binary Confusion Matrix- A used technique for summarizing the performance of a classification algorithm. Classification accuracy alone can be misleading if you have an unequal number of observations in each class.
-- Since we will are dealing with probability scores, it is best to choose log-loss as our metric and the Binary confusion matrix will provide numbers of metrics like TPR, FPR, TNR, FNR, Precision, and Recall.
+- log-loss
+- Binary Confusion Matrix
+
 
